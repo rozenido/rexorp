@@ -1,0 +1,10 @@
+console.log(showStars(10));
+
+function showStars(rows) {
+    for (row = 1; row <=rows; row++) {
+    var stars = ""
+    for (i = 0; i < row; i++)
+    stars += '*';
+    console.log(stars);
+    }
+}
